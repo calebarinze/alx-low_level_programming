@@ -32,5 +32,5 @@ int main(int argc, char *argv[])
 		}
 	}
 	printf("%d\n", result);
-	result(0);
+	result (0);
 }
