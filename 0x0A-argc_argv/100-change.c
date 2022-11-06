@@ -4,7 +4,7 @@
  * main -> this function is to print its name
  * @argc: argc parameter
  * @argv: an array of command listed
- * Return: 0 on success
+ * Return: 0 for success
  */
 int main(int argc, char *argv[])
 {
@@ -16,6 +16,7 @@ int main(int argc, char *argv[])
 		printf("%s\n", "Error");
 		return (1);
 	}
+
 	num = atoi(argv[1]);
 	if (num < 0)
 	{
@@ -33,4 +34,3 @@ int main(int argc, char *argv[])
 	printf("%d\n", result);
 	result(0);
 }
-
