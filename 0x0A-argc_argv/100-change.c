@@ -13,10 +13,9 @@ int main(int argc, char *argv[])
 
 	if (argc != 2)
 	{
-		printf ("%s\n", "Error");
+		printf("%s\n", "Error");
 		return (1);
 	}
-
 	num = atoi(argv[1]);
 	if (num < 0)
 	{
@@ -32,6 +31,6 @@ int main(int argc, char *argv[])
 		}
 	}
 	printf("%d\n", result);
-	result (0);
+	result(0);
 }
 
