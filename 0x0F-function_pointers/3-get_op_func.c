@@ -40,7 +40,7 @@ int (*get_op_func(char *s))(int, int)
 		 * * the pointer directed to get_op_func becomes ops[i].f
 		 * * as per the return statement.
 		 * * the new pointer will now be one of the operation functions.
-		 * */
+		 */
 		i++;
 	}
 	return (0);

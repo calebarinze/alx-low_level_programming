@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
 	/*
 	 * * argv[2], the operator, will be compared to each ops[i]
 	 * * should they match, operation becomes the corresponding func.
-	 * */
+	 */
 
 	if (!operation)
 	{
@@ -39,7 +39,7 @@ int main(int argc, char *argv[])
 	/*
 	 * * the operator functions in the array accept two numbers.
 	 * * we will extract these numbers using atoi.
-	 * */
+	 */
 
 	return (0);
 }
