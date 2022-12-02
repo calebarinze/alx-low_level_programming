@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *  * flip_bits - counts the number of flipped bits required to change a number.
+ * flip_bits - counts the number of flipped bits required to change a number.
  *   * @n: the first number.
  *    * @m: the second number.
  *     * Return: the number of flipped bits.
